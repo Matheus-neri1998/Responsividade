@@ -288,6 +288,33 @@ padding-bottom: 60px;
      .btnMenu{
          display: block;
      }
+     .sobre h2{
+         font-size: 43px;
+     }
+    .artigo-sobre img{
+        max-width: 400px;
+    }
+    .artigo-text-sobre h3:nth-child(1){
+        font-size: 20px;
+    }
+    .artigo-text-sobre h3:nth-child(2){
+        font-size: 30px;
+    }
+    .artigo-text-sobre p{
+        font-size: 15px;
+    }
+    .info h4{
+        font-size: 15px;
+    }
+    .info p{
+        width: 100px;
+        font-size: 15px;
+    }
+    .endereço h2{
+        height: auto;
+        font-size: 40px;
+    }
+        
 }
 
 /* Responsivo de 375 até 575 */
