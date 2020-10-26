@@ -3,20 +3,24 @@
     <head>
         <title>Landing Page</title>
         <link rel="stylesheet" href="css/estilo.css">
+        <script src="https://kit.fontawesome.com/912dbf7fec.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <header class="topo">
             <nav class="menu">
-                <ul>
+                <ul id="myLinks">
                     <li><a href="#">Inicio</a></li>
                     <li><a href="#">Sobre</a></li>
-                    <li><a href="">Desafios</a></li>
+                    <li><a href="#">Desafios</a></li>
                     <li><a href="#">Endereço</a></li>
                 </ul>
-
+                <a href= "#" class="btnMenu" onclick="button()">
+                <i class="fas fa-bars"></i>
+                </a>
             </nav>            
         </header>
         <!-- Fim do topo -->
+
         <section class="banner">
             <div class="content alinhando-abaixo">
                 <div class="banner-text">
@@ -72,5 +76,15 @@
                 <p>Copyright © 2020 - Escola Senai de Informática</p>
             </div>
         </footer>
+        <script>
+            function button() {
+              var exibição = document.getElementById("myLinks");
+              if (exibição.style.display === "flex") {
+                exibição.style.display = "none";
+              } else {
+                exibição.style.display = "flex";
+              }
+            }
+            </script>            
     </body>
 </html>
